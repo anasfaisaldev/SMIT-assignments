@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: #ebf1ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 8px;
+    margin-left: 200px;
+    gap: 30px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    color: black;
+    list-style: none;
+    margin-right: 210px;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 550;
+}
+ul button{
+    padding: 10px 30px;
+  border: 4px solid transparent;       
+  border-radius: 40px;
+  font-weight: 600;
+  background: 
+  linear-gradient(white, white)padding-box,
+  linear-gradient(45deg,rgb(55, 0, 255) , rgb(0, 128, 255), yellow) border-box;
+  color: #004A3F;
+  cursor: pointer;
+}
+.second{
+   background-color: rgb(255, 255, 255);
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 6px;
+}
+.second select{
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.second input{
+    width: 700px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.second button{
+    height: 40px;
+    border: 1px solid rgb(2, 23, 32);
+    background-color: rgb(0, 41, 55);
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 90px;
+
+}
+.third{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    padding: 0 230px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.third h1{
+    font-size: 20px;
+}
+.cover1{
+   /* padding: 0 50%; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cover2{
+   /* padding: 0 50%; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 74.5%;
+   height: 200px;
+   background-color: #004A3F;
+   margin: 5px auto;
+    background-image: url('https://mydukaan.io/blog/wp-content/uploads/Frame-1-1200x385.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+
+}
+.cover1 img{
+ width: 1180px;
+ margin-top: 30px;
+ border: 5px solid white;
+ border-radius: 20px;
+}
+.cover2{
+ margin-top: 30px;
+ border: 5px solid white;
+ border-radius: 20px;
+}
+.sections{
+    margin: auto auto;
+    background-color: #ffffff;
+    width: 1160px;
+    height: 300px;
+    border-radius: 50px;
+        display: grid;
+    align-content: center;
+    grid-template-columns: repeat(9,1fr);
+    grid-row-gap: 60px;
+    padding-bottom: 40px;
+    
+}
+.sections div{
+    border: 2px solid rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin: auto auto;
+    text-align: center;
+    
+}
+
+
+
+#heading1{
+    margin-left: 220px;
+    text-transform: capitalize;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+margin: 0 150px;
+margin-bottom:22px;
+}
+.box{
+width: 250px;
+height: 300px;
+background-color: #ffffff;
+border: 1px solid rgb(128, 128, 128);
+}
+.box1{
+    background-image: url(./asset/box\ img\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.box2{
+    background-image: url(./asset/box\ img\ 2.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 160px;
+}
+.box3{
+    background-image: url(./asset/box\ img\ 3.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 160px;
+}
+.box4{
+    background-image: url(./asset/box\ img\ 4.webp);
+    background-repeat: no-repeat;
+    background-size: 250px 160px;
+}
+.price-heart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 170px;
+    font-weight: bolder;
+}
+.footer-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #ffffff;
+    margin-top: -3px;
+    width: 100vw;
+        border-top: 1px solid rgb(102, 102, 102);
+
+}
+.footer-ul ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.background-color{
+    background-color: #002e3d;
+    width: 100vw;
+    height: 50px;
+    padding: 20px;
+}
+.background-color p{
+    margin-left: 1100px;
+    color: white;
+    font-size: 16px;
+}
+
+
+

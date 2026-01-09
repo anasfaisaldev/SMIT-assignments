@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #td1 {
+            background-color: rgb(89, 177, 133);
+        }
+
+        #td2 {
+            background-color: rgb(89, 177, 133);
+        }
+
+        #td3 {
+            background-color: rgb(4, 106, 209);
+        }
+
+        #td1:hover {
+            background-color: rgb(4, 106, 209);
+
+        }
+
+        #td2:hover {
+            background-color: rgb(4, 106, 209);
+        }
+
+        #td3:hover {
+            background-color: rgb(4, 106, 209);
+
+        }
+
+        /* fieldset {
+            padding: 0px;
+            margin-left: 450px;
+            margin-right: 450px;
+        } */
+
+
+
+        /* input {
+            margin-left: 0%;
+            width: 300px;
+        } */
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td id="td1">Step 1: Account</td>
+                <td id="td2">Step 2: Personal Details</td>
+                <td id="td3">Step 3: Your Review</td>
+            </tr>
+        </table>
+    </center>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <br>
+        <label for="How did you hear about us?">How did you hear about us?</label>
+        <select name="How did you hear about us?" id="">
+            <option value="select your option" selected disabled required>select your option</option>
+        </select>
+        <br>
+        <br>
+        <p style="margin-right: 160px;">Would you visit again?</p>
+        <div id="firstdiv">
+            <input type="radio" name="yes" id="firstradio">Yes
+            <input type="radio" name="yes" id="secondradio">No
+            <input type="radio" name="yes" id="thirdradio">Maybe
+        </div>
+        <br>
+        <label for="Comments:" >Comments:</label>
+        <textarea name="Comments:" placeholder="Enter your comments here..." cols="40"></textarea>
+        <br>
+        <br>
+        <label for="Documents:">Documents:</label>
+        <input type="file" style="margin-right: 60px;" required>
+        <br>
+        <br>
+        <input type="checkbox" name="check" checked><label for="check">Sign me up for email updates</label>
+        <br>
+        <br>
+        <a href="./index3.html"><img src="./back button.webp" alt="" width="100px"></a>
+        <a href="https://www.google.com/" target="_blank"><img src="./submit button.webp" alt="" width="100px"></a>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #span1 {
+            border: 1px solid rgb(244, 241, 241);
+            padding: 15px;
+            margin-right: 1px;
+            font-size: 18px;
+            color: rgb(0, 66, 151);
+        }
+
+        #span2 {
+            border: 1px solid rgb(244, 241, 241);
+            padding: 15px;
+            margin-left: 1px;
+            font-size: 18px;
+            color: rgb(0, 66, 151);
+
+        }
+
+        #span3 {
+            border: 1px solid rgb(244, 241, 241);
+            padding: 15px;
+            margin-right: 100px;
+            font-size: 18px;
+            color: rgb(0, 66, 151);
+
+        }
+
+        #span1:hover {
+            color: green;
+        }
+
+        #span2:hover {
+            color: green;
+        }
+
+        #span3:hover {
+            color: green;
+        }
+
+        #row21 {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #country {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #city {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #gender {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #preference {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #course {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #fullname {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #fathername {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #email {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #phone {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #cnic {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #fathercnic {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #date {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #proficiency {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #laptop {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #qualification {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #address {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            border: 1px #8bc34a solid;
+            color: black;
+        }
+
+        #picture {
+            width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            color: black;
+        }
+#submit{
+     width: 670px;
+            height: 70px;
+            border-radius: 7px;
+            font-size: 17px;
+            color: rgb(255, 255, 255);
+            background-color:  rgb(0, 66, 151);
+}
+
+
+        #countrylabel {
+            color: rgb(0, 66, 151);
+            margin-right: 550px;
+            font-size: 20px;
+        }
+
+        #citylabel {
+            color: rgb(0, 66, 151);
+            margin-right: 580px;
+            font-size: 20px;
+
+        }
+
+        #genderlabel {
+            color: rgb(0, 66, 151);
+            margin-right: 560px;
+            font-size: 20px;
+
+        }
+
+        #preferencelabel {
+            color: rgb(0, 66, 151);
+            margin-right: 480px;
+            font-size: 20px;
+
+        }
+
+        #courselabel {
+            color: rgb(0, 66, 151);
+            margin-right: 490px;
+            font-size: 20px;
+
+        }
+
+        #countrylabel {
+            color: rgb(0, 66, 151);
+            margin-right: 550px;
+        }
+
+        #fulllabel {
+            color: rgb(0, 66, 151);
+            margin-right: 580px;
+            font-size: 20px;
+        }
+
+        #fatherlabel {
+            color: rgb(0, 66, 151);
+            margin-right: 560px;
+            font-size: 20px;
+        }
+
+        #emaillabel {
+            color: rgb(0, 66, 151);
+            margin-right: 620px;
+            font-size: 20px;
+        }
+
+        #phonelabel {
+            color: rgb(0, 66, 151);
+            margin-right: 550px;
+            font-size: 20px;
+        }
+
+        #cniclabel {
+            color: rgb(0, 66, 151);
+            margin-right: 630px;
+            font-size: 20px;
+        }
+
+        #fathercniclabel {
+            color: rgb(0, 66, 151);
+            margin-right: 470px;
+            font-size: 20px;
+        }
+
+        #datelabel {
+            color: rgb(0, 66, 151);
+            margin-right: 570px;
+            font-size: 20px;
+        }
+
+        #proficiencylabel {
+            color: rgb(0, 66, 151);
+            margin-right: 400px;
+            font-size: 20px;
+        }
+
+        #laptoplabel {
+            color: rgb(0, 66, 151);
+            margin-right: 470px;
+            font-size: 20px;
+        }
+
+        #qualificationlabel {
+            color: rgb(0, 66, 151);
+            margin-right: 520px;
+            font-size: 20px;
+        }
+
+        #addresslabel {
+            color: rgb(0, 66, 151);
+            margin-right: 600px;
+            font-size: 20px;
+        }
+
+        #picturelabel {
+            color: rgb(0, 66, 151);
+            margin-right: 600px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img width="300px" src="./saylani logo.png" alt="">
+        <h1>Registration Form - SMIT</h1>
+        <p style="color: grey;">Services - Education - Registration</p>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+            id="span1">Registration</span>&nbsp;&nbsp;<span id="span2">Download ID Card</span>&nbsp;&nbsp;<span
+            id="span3">Results</span>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <label id="countrylabel" for="country">select country</label>
+        <br>
+        <select name="country" id="country" required>
+            <option value="select your country" selected disabled required>select your country</option>
+            <option value="pakistan">pakistan</option>
+            <option value="turkey">turkey</option>
+            <option value="yeman">yeman</option>
+        </select>
+        <br>
+        <br>
+        <label for="country" id="citylabel">select city</label>
+        <br>
+        <select name="city" id="city" required>
+            <option value="select your city" selected disabled required>select your city</option>
+            <option value="karachi">karachi</option>
+            <option value="lahore">lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="gujrawala">gujrawala</option>
+            <option value="rawalpindi">rawalpindi</option>
+        </select>
+        <br>
+        <br>
+        <label id="genderlabel" for="gender">select gender</label>
+        <br>
+        <select name="gender" id="gender" required>
+            <option value="select your gender" selected disabled required>select your gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+        <br>
+        <br>
+        <label for="class preference" id="preferencelabel">select class preference</label>
+        <br>
+        <select name="class preference" id="preference" required>
+            <option value="select class preference" selected disabled required>select class preference</option>
+            <option value="online">online</option>
+            <option value="onsit">onsit</option>
+        </select>
+        <br>
+        <br>
+        <label id="courselabel" for="select course or event">select course or event</label>
+        <br>
+        <select name="select course or event" id="course" required>
+            <option value="select course or event" selected disabled required>select course or event</option>
+        </select>
+        <br>
+        <br>
+        <label for="fullName" id="fulllabel">
+            Full name
+        </label>
+        <br>
+        <input type="text" name="fullName" id="fullname" placeholder="full name" required>
+        <br>
+        <br>
+        <label for="fathername" id="fatherlabel">
+            Father name
+        </label>
+        <br>
+        <input type="text" name="fathername" id="fathername" placeholder="father name" required>
+        <br>
+        <br>
+        <label for="email" id="emaillabel">email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="email" required>
+        <br>
+        <br>
+        <label for="phone" id="phonelabel">phone number</label>
+        <br>
+        <input type="number" name="phone" id="phone" placeholder="phone number" required>
+        <br>
+        <br>
+        <label for="cnic" id="cniclabel">cnic</label>
+        <br>
+        <input type="number" name="cnic" id="cnic" placeholder="cnic" required>
+        <br>
+        <br>
+        <label for="FatherCNIC" id="fathercniclabel">Father's CNIC (optional)</label>
+        <br>
+        <input type="number" name="FatherCNIC" id="fathercnic" placeholder="Father's CNIC (optional)" required>
+        <br>
+        <br>
+        <label for="date" id="datelabel">Date of birth</label>
+        <br>
+        <input type="date" name="date" id="date" placeholder="mm/dd/yyy" required>
+        <br>
+        <br>
+        <label for="computerproficiency" id="proficiencylabel">Select your computer proficiency</label>
+        <br>
+        <select name="computerproficiency" id="proficiency" required>
+            <option value="Select your computer proficiency" selected disabled required>Select your computer proficiency
+            </option>
+            <option value="none">none</option>
+            <option value="beginner">beginner</option>
+            <option value="intermediate">intermediate</option>
+            <option value="advanced">advanced</option>
+        </select>
+        <br>
+        <br>
+        <label for="Laptop" id="laptoplabel">Do you have a Laptop?</label>
+        <br>
+        <select name="Laptop" id="laptop" required>
+            <option value="Do you have a Laptop?" selected disabled required>Do you have a Laptop?</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br>
+        <br>
+        <label for="qualification" id="qualificationlabel">Last qualification</label>
+        <br>
+        <select name="qualification" id="qualification" required>
+            <option value="Last qualification" selected disabled required>Last qualification</option>
+            <option value="matric">matric</option>
+            <option value="intermediate">intermediate</option>
+            <option value="undergraduate">undergraduate</option>
+            <option value="graduate">graduate</option>
+            <option value="phd">phd</option>
+            <option value="master">master</option>
+            <option value=" other">other </option>
+        </select>
+        <br>
+        <br>
+        <label for="adress" id="addresslabel">Address</label>
+        <br>
+        <input type="text" name="address" id="address" placeholder="Address">
+        <br>
+        <br>
+        <label for="picture" id="picturelabel">Picture</label>
+        <br>
+        <input type="file" id="picture">
+        <br>
+        <p style="margin-right: 300px; margin-top: -19px;">With white or blue
+            background........................................ <br>
+            File size must be less than 1MB .....................................<br>
+            File type: jpg, jpeg, png ..................................................<br>
+            Upload your recent passport size picture ........................<br>
+            Your Face should be clearly visible without any Glasses</p>
+
+        <hr>
+        <p>
+            1. I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of
+            my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT. <br>
+            2. I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any
+            other activity,... political or ethical, but learning during my stay in the program. <br>
+            3. Defiance will render my admission canceled at any point in time.
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            4. Upon completion, of the course, I will complete the required project by
+            SWIT.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            5. It's mandatory for female students to wear abaya/hijab in the class
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        </p>
+      <a href="./saylani logo.png">  <input type="submit"  name="submit" id="submit" placeholder="submit"></a>
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+
+</html>

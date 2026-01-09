@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #td1 {
+            background-color: rgb(89, 177, 133);
+        }
+
+        #td2 {
+            background-color: rgb(4, 106, 209);
+        }
+
+        #td3 {
+            background-color: grey;
+        }
+
+        #td1:hover {
+            background-color: rgb(4, 106, 209);
+
+        }
+
+        #td2:hover {
+            background-color: rgb(4, 106, 209);
+        }
+
+        #td3:hover {
+            background-color: rgb(4, 106, 209);
+
+        }
+
+        /* fieldset {
+            padding: 0px;
+            margin-left: 450px;
+            margin-right: 450px;
+        } */
+
+        input {
+            margin-left: 0%;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td id="td1">Step 1: Account</td>
+                <td id="td2">Step 2: Personal Details</td>
+                <td id="td3">Step 3: Your Review</td>
+            </tr>
+        </table>
+    </center>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br>
+            <label for="First Name:" style="margin-right:20px ;">First Name:</label>
+            <input type="text" placeholder="Enter First Name" required>
+            <br>
+            <br>
+            <label for="Last Name:" style="margin-right:20px ;">Last Name:</label>
+            <input type="text" name="Last Name:" id="Last Name:" placeholder="Enter Last Name" required>
+            <br>
+            <br>
+            <label for="CNIC:" style="margin-right:50px ;">CNIC:</label>
+            <input type="number" placeholder="XXXXX-XXXXXXX-X" required>
+            <br>
+            <br>
+            <label for="Social Link:" style="margin-right:15px ;">Social Link:</label>
+            <input type="url" placeholder="Enter Facebook/Linkedin profile linke" required>
+            <br>
+            <br>
+            <a href="./index2.html"><img src="./back button.webp" alt="" width="100px"></a>
+            <a href="./index4.html"><img src="./next button 2.webp" alt="" width="100px"></a>
+        </fieldset>
+</body>
+
+</html>
